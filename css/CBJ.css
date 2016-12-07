@@ -1,0 +1,541 @@
+html{
+	background: url(../images/treebw.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.logo {
+	text-align: left;
+	background-position: left top;
+	color: #FFFFFF;
+	font-size: 30px;
+	ont-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+.logo a:hover{
+	background-color:transparent;
+	}
+	
+#Frame {
+	width: auto;
+	float: right;
+}
+
+	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+ul li a:link, a:visited {
+	width: 120px;
+	display: block;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #000; opacity:0.7;
+	background-position: right top;
+}
+
+ a:hover, a:active {
+	background-color: #D8BFD8;
+	color: #FFFFFF;
+}
+
+#Icons {
+	float: right;
+	opacity:0.7;
+	}
+
+	
+/*Large screen styles first - Avoid*/	
+.illustration {
+	z-index: 200;
+	max-width: 500px;
+}
+
+
+.illustration a:hover{
+	text-decoration: none;
+	}
+
+#imagery {
+	margin: 0 auto;
+}
+
+#tabs{
+	margin: 0 auto;
+	display: block;
+	background-position: center;
+	position: relative;
+	text-align: center;
+	}
+	
+.sub{
+    margin: 0 auto;
+	max-width: 350px;
+}
+	
+#contentbox {
+	text-align: center;
+	z-index: 100;
+}
+
+#Profile {
+	text-align:left;
+	z-index:300;
+	top: 400;
+	position:fixed;
+}
+	
+
+#booklet {
+	width: 600px;
+	display: block;
+	position: relative;
+	box-shadow: 0 0 1px #666;
+	-webkit-box-shadow: 0 0 1px #666;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+}
+
+#pictures {
+
+	width:900px;
+	display:block;
+	position:relative;
+	margin: 20px auto;
+	box-shadow: 0 0 1px #666;
+	-webkit-box-shadow: 0 0 1px #666;
+}
+
+img.desaturate { 
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+img.desaturate:hover { 
+-webkit-filter: none;
+filter: none;
+}
+
+#slider {
+	width: 600px;
+	position: absolute;
+	display: block;
+	left: 0px;
+	top: 1px;
+	}
+
+#picslider {width:600px;
+position:fixed;
+display:block;
+	}
+
+#pager {
+	width: 100%;
+	text-align: center;
+	display: block;
+	position: absolute;
+	z-index: 200;
+	bottom: -26px;
+	left: 1px;
+}
+
+.slider-items {
+	text-align: center;
+	background-position: center;
+	position: fixed;
+	top: 100px;
+}
+
+#pager a{
+	width:10px;
+	height:10px;
+	display:inline-block;
+	position:relative;
+	background-color: #333;
+	border: 1px solid #333;
+	margin: 0 10px;
+	border-radius: 20px;
+	font-size: .0em;
+	color: transparent;
+
+}
+
+#pager a.activeSlide {
+	background-color: #CCD109;
+}
+
+
+	
+.gallery {
+	text-align: center;
+	top: 50px;
+	position: relative;
+	
+}
+
+#Textlink  a {
+	font-size:12px;
+	color: #FFFFFF;
+	background-color: #000;
+	text-align:center;
+	opacity: 0.6;
+	text-decoration: none;
+	float: left;
+	width: 200px;
+	position: relative;
+	z-index: 250;
+	background-repeat: no-repeat;
+	display: block;
+	margin-top: 30px;
+}
+		
+#video{
+	margin: 0 auto;
+	width: 500px;
+	opacity: none;
+}
+
+#video h3{
+		color: white;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+	
+#videoitems{ display: block;
+	
+}
+			
+ .youtube {
+            position: relative;
+            padding-bottom: 56.23%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin: 5px;
+			opacity: 10;
+        }
+        
+        .youtube iframe,
+        .youtube object,
+        .youtube embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 100;
+            background: transparent;
+        }
+        
+.youtube img {
+	
+            bottom: 0;
+            display: block;
+            left: 0;
+            margin: auto;
+            max-width: 100%;
+            width: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            border: none;
+            height: auto;
+            cursor: pointer;
+            -webkit-transition: .4s all;
+            -moz-transition: .4s all;
+            transition: .4s all;
+        }
+        
+.youtube img:hover {
+            -webkit-filter: brightness(75%);
+        }
+        
+.youtube .play {
+	height: 72px;
+	width: 72px;
+	left: 50%;
+	top: 50%;
+	margin-left: -36px;
+	margin-top: -36px;
+	position: absolute;
+	cursor: pointer;
+	background-image: url(../images/Youtubeplay.png); no-repeat;
+	opacity: none;
+        }
+				
+.responsive-image {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+#discography {
+
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.instructions{
+  display:block;
+  color: #000;
+  font-size: 15px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-align: center;
+  padding: 0 10%;
+}
+
+.instructions a{
+	color: #000;
+	text-decoration: none;
+}
+
+.discography {
+  display:block;
+  color: #000;
+  font-size: 10px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-align: center;
+  }
+
+.quotation_div{
+	position: relative;
+	display: table;
+	background: rgba(0,0,0,0.8);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 800px;
+	margin: 0 auto;
+	
+}
+
+.music_div{
+	position: relative;
+	display: table;
+	background: rgba(255,255,255,0.9);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 800px;
+	margin: 0 auto;
+	
+}
+
+.overlay {
+	display: table-cell;
+	background-size: 60% auto;
+    margin: 0 auto;
+	background-position: center;
+
+}
+
+h4 {
+	text-align: center;
+	color: white;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: lighter;
+	padding: 0 10%;
+}
+
+#biography h4{ 
+    text-align: justify;
+	}
+	
+.concerts {
+	margin:0 auto;
+	position: relative;
+	display: table;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 100% auto;
+	text-align:center;
+	background: rgba(0,0,0,0.8);
+	color: #FFFFFF;
+	width:80%;
+max-width: 640px;
+}
+
+#overlay{
+	background-color: #000; opacity:0.8;
+}
+
+h2 {
+	font-family: "Palatino Linotype", "Book Antiqua";
+	padding: 0 5%;
+	
+}
+
+#subscribe {
+	text-align:left;
+	background-color: #000; opacity:0.8;
+	float:left;
+	vertical-align:bottom;
+	color: #FFFFFF;
+	position:relative;
+}
+	
+	
+#footer {
+	background-color: #000; opacity:0.8;
+	color: #FFFFFF;
+	font-family:  "Palatino Linotype", "Book Antiqua";
+	text-align: center;
+	background-size: cover;
+	background-position: center bottom;
+	direction: ltr;
+	font-size: small;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin: auto;
+}
+
+
+@media (max-width: 1000px){
+	
+	.logo{display: none; 
+		}
+}
+
+@media (max-width: 480px){
+	ul{ 
+	display: block;
+	margin: 0 auto;
+	min-width: 240px;
+		}
+}
+
+
+
+@media (max-width: 600px){
+	
+	#booklet{
+	max-width: 300px;
+	max-height: 301px;
+	width: 100%;
+	margin: 0 auto;
+	
+		}
+}
+
+@media (max-width: 600px){
+	
+	#pager a{
+	max-width: 5px;
+	max-height: 5px;
+	
+		}
+}
+
+@media (max-width: 600px){
+	
+	#slider{
+	max-width: 300px;
+	max-height: 301px;
+	width: 100%;
+	margin: 0 auto;
+	
+		}
+}
+
+@media (max-width: 600px){
+	
+	.slider-items img{
+	max-width: 300px;
+	max-height: 301px;
+	width: 100%;
+	margin: 0 auto;
+	
+		}
+}
+
+@media only screen and (max-width: 480px) {
+   .sub {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+	.illustration {
+		width: 300px;
+	}
+}
+
+@media () {
+	#store {
+		float: none;
+		text-align: center;
+	}
+}
+
+@media (max-width: 1000px) {
+	.quotation_div{ 
+	min-width: 220px;
+	width: auto;
+	}
+}
+
+@media (max-width: 1000px) {
+	.music_div{ 
+	min-width: 220px;
+	width: auto;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+   .overlay p{ 
+   text-align: left;
+   margin-left: 5px;
+    }
+}
+
+@media (max-width: 1000px) {
+	#imagery {
+		width: auto;
+	}
+}
+@media (max-width: 1000px) {
+	#tabs {
+		width: auto;
+	}
+}
+
+@media (max-width: 1000px) {
+	#video {
+		width: auto;
+	}
+}
+
+@media (max-width: 500px) {
+     .musicplayer iframe{
+		 float: none;
+		 display: block;
+	     margin: 0 auto;
+	}
+}
+
+@media (max-width: 1000px) {
+	#mailchimp img{
+		display: block;
+		margin: 0 auto;
+	}
+}

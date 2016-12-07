@@ -1,0 +1,71 @@
+body {
+	background-image: url(../images/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  padding: 0;
+  margin: 0;
+
+}
+
+/* logo */
+.logo{
+	text-align: left;
+	max-width: 200px;
+  height:84px
+}
+
+/* navbar */
+.navbar ul {
+  padding: 0;
+  margin: 6px 6px 0 0;
+}
+
+  .navbar ul li {
+    float:right;
+    width: 120px;
+    padding: 5px;
+    margin-top:0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    list-style: none;
+    /*check other opacity format*/
+    background-color: #000000;
+    opacity:0.8;
+  }
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* main section */
+
+.wrapper{
+  margin:0 auto;
+  width: 600px;
+}
+
+.section{
+  text-align:center;
+	margin-top: 50px;
+
+}
+
+  .section-black{
+    background-color: #000000;
+    opacity:0.8;
+    color: #ffffff;
+  }
+
+  /* video iframes */
+  .video{
+    border: 3px solid #000;
+    overflow: hidden; /*check if that is needed*/
+    width: 640px;
+    height: 360px;
+    margin-bottom: 50px;
+  }
+
+  /*  */
